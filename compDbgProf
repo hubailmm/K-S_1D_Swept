@@ -1,0 +1,5 @@
+FILES="ClassicDiscretization1D.cpp DiamondDiscretization1D.cpp DiamondTop.cpp DiamondBottom.cpp DiamondHalf.cpp Diamond1D.cpp "
+
+BIN="diamond.exe"
+
+mpicxx -g -pg $FILES -o $BIN
